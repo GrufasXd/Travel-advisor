@@ -16,6 +16,7 @@ Follow these steps to launch the project locally:
 
 ```bash
 npx expo start
+```
 
 Wait until the program builds. Once ready, you can use the following terminal commands:
 * Press `a` to open the app in an Android emulator.
