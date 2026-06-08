@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "traveladvisor",
     "name": "Travel-Advisor",
     "slug": "Travel-Advisor",
     "version": "1.0.0",

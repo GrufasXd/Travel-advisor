@@ -1,7 +1,7 @@
 {
   "name": "travel-advisor",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,24 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-native-community/slider": "5.1.2",
+    "@react-native-picker/picker": "^2.11.4",
     "expo": "55.0.10-canary-20260328-2049187",
+    "expo-checkbox": "55.0.4-canary-20260328-2049187",
+    "expo-constants": "55.0.10-canary-20260328-2049187",
+    "expo-linking": "55.0.10-canary-20260328-2049187",
+    "expo-router": "55.0.9-canary-20260328-2049187",
     "expo-status-bar": "55.0.5-canary-20260328-2049187",
     "react": "19.2.0",
-    "react-native": "0.83.4"
+    "react-dom": "19.2.0",
+    "react-native": "0.83.4",
+    "react-native-calendars": "^1.1314.0",
+    "react-native-maps": "1.27.2",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-web": "~0.21.0",
+    "react-native-webview": "13.16.0"
   },
   "private": true
 }
